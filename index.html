@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Irfan Safi | Meow Bio Profile 🐾</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Floating Paw Background Elements -->
+  <div class="paw-bg paw-1">🐾</div>
+  <div class="paw-bg paw-2">🐾</div>
+  <div class="paw-bg paw-3">🐾</div>
+  <div class="paw-bg paw-4">🐾</div>
+
+  <div class="container">
+    <div class="theme-toggle">
+      <button id="themeBtn" aria-label="Toggle Theme">🌙</button>
+    </div>
+
+    <!-- Header / Profile Section -->
+    <header class="profile-header">
+      <div class="avatar-wrapper">
+        <div class="cat-ears"></div>
+        <img src="assets/avatar.png" alt="Cat Profile Picture" class="avatar" id="avatarImg" onerror="this.src='https://api.dicebear.com/7.x/bottts-neutral/svg?seed=IrfanCat'">
+      </div>
+      <h1 class="name">Irfan Safi 🐾</h1>
+      <p class="tagline">Tech Enthusiast & Purr-fect Code Crafter ✨</p>
+      <div class="status-badge">
+        <span class="status-dot"></span> Online & Napping
+      </div>
+    </header>
+
+    <!-- Bio Card -->
+    <main>
+      <section class="card bio-card">
+        <h2><i class="fa-solid fa-cat"></i> About Me</h2>
+        <p>
+          Hello human! 😸 I'm Irfan. I build cool software projects, host apps on the cloud, and enjoy creating web experiences. When I'm not coding, I'm probably taking a cat nap or exploring new tech!
+        </p>
+
+        <div class="skills">
+          <span class="skill-tag">🐾 Web Dev</span>
+          <span class="skill-tag">🐾 Cloud Hosting</span>
+          <span class="skill-tag">🐾 Open Source</span>
+          <span class="skill-tag">🐾 Firebase</span>
+        </div>
+      </section>
+
+      <!-- Social Links Section -->
+      <section class="card links-card">
+        <h2><i class="fa-solid fa-paw"></i> Connect With Me</h2>
+        
+        <div class="links-grid">
+          <a href="https://github.com/main-safi" target="_blank" class="social-btn github">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+            <i class="fa-solid fa-paw paw-icon"></i>
+          </a>
+
+          <a href="https://discord.com" target="_blank" class="social-btn discord">
+            <i class="fa-brands fa-discord"></i>
+            <span>Discord</span>
+            <i class="fa-solid fa-paw paw-icon"></i>
+          </a>
+
+          <a href="https://youtube.com" target="_blank" class="social-btn youtube">
+            <i class="fa-brands fa-youtube"></i>
+            <span>YouTube</span>
+            <i class="fa-solid fa-paw paw-icon"></i>
+          </a>
+
+          <a href="https://snapchat.com" target="_blank" class="social-btn snapchat">
+            <i class="fa-brands fa-snapchat"></i>
+            <span>Snapchat</span>
+            <i class="fa-solid fa-paw paw-icon"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- Interactive Mini Game -->
+      <section class="card mini-game">
+        <button id="meowBtn" class="action-btn">
+          <i class="fa-solid fa-paw"></i> Pet Me & Meow!
+        </button>
+        <p class="click-count">Headpats given: <span id="patCount">0</span> 🐾</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Crafted with 💜 and cat paws | © 2026 Irfan Safi</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
